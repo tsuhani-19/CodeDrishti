@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya Sharma | UI/UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="#hero" class="logo">Priya Sharma</a>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hello, I'm Priya Sharma</h1>
+                    <h2>A UI/UX Designer creating intuitive and delightful experiences.</h2>
+                    <p>Combining aesthetics with functionality to solve real-world problems.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/400x400/DDA0DD/FFFFFF?text=Priya+Sharma" alt="Priya Sharma - UI/UX Designer">
+                    </div>
+                    <div class="about-text">
+                        <p>With a passion for user-centered design, I specialize in crafting digital products that are not only visually appealing but also highly functional and accessible. My journey in design began with a curiosity for how people interact with technology, leading me to explore various facets of UI/UX, from research and wireframing to prototyping and usability testing.</p>
+                        <p>I thrive on collaboration and am always eager to learn new approaches and technologies that can enhance the design process. My goal is to create meaningful experiences that resonate with users and drive positive impact.</p>
+                        <p>When I'm not designing, you can find me exploring new art exhibitions, hiking nature trails, or diving into a good book.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400/ADD8E6/FFFFFF?text=Project+1" alt="Project 1 - Mobile App Redesign">
+                        <h3>E-commerce Mobile App Redesign</h3>
+                        <p>Improved user flow and visual aesthetics for a fashion retail application.</p>
+                        <a href="#" class="btn btn-outline">View Case Study</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400/98FB98/FFFFFF?text=Project+2" alt="Project 2 - SaaS Dashboard">
+                        <h3>SaaS Analytics Dashboard</h3>
+                        <p>Designed an intuitive dashboard for data visualization and management.</p>
+                        <a href="#" class="btn btn-outline">View Case Study</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400/FFB6C1/FFFFFF?text=Project+3" alt="Project 3 - Health & Wellness Platform">
+                        <h3>Health & Wellness Web Platform</h3>
+                        <p>Developed a responsive platform for tracking fitness and dietary habits.</p>
+                        <a href="#" class="btn btn-outline">View Case Study</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400/BA55D3/FFFFFF?text=Project+4" alt="Project 4 - FinTech Interface">
+                        <h3>FinTech Investment Interface</h3>
+                        <p>Streamlined complex investment processes into a simple, elegant UI.</p>
+                        <a href="#" class="btn btn-outline">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind or just want to say hello? Feel free to reach out!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 Priya Sharma. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

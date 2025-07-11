@@ -1,0 +1,1 @@
+// Add JavaScript for dynamic content and booking functionality here
