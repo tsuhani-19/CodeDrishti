@@ -43,14 +43,15 @@ export default function Generate() {
     }
   };
 
-  const handleLivePreview = () => {
-    if (generatedData?.projectName) {
-      const url = `http://localhost:5000/sites/${generatedData.projectName}/index.html`;
-      window.open(url, '_blank');
-    } else {
-      alert('⚠️ No project to preview.');
-    }
-  };
+const handleLivePreview = () => {
+  if (generatedData?.projectName) {
+    const url = `https://codedrishti-backend.onrender.com/sites/${generatedData.projectName}/index.html`;
+    window.open(url, '_blank');
+  } else {
+    alert('⚠️ No project to preview.');
+  }
+};
+
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
