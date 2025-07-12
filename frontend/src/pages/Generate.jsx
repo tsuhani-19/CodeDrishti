@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import FileTree from '../components/FileTree';
+import FileTree from '../components/Filetree';
 import { CodeViewer } from '../components/CodeViewer';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
